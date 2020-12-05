@@ -1,0 +1,38 @@
+:root {
+    --width: calc(300px * 3);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.galary{
+    margin: 0 auto;
+    display: grid;
+    width: var(--width);
+    grid-template: repeat(2, 1fr)/repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.img{
+    width:300px;
+}
+
+.container-one-img{
+    margin: 0 auto;
+    width: 1280px;
+
+}
+
+.wrap{
+    min-height: 897px;
+    padding-top: 180px;
+    background: rgba(67, 52, 82, 0.8);
+}
+
+.container{
+    min-height: 877px;
+    padding-top: 200px;
+    background: rgba(67, 52, 82, 0.8);
+}
