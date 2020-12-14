@@ -1,0 +1,11 @@
+{% extends 'layout.twig' %}
+
+
+{% block title %}Galary{% endblock %}
+{% block content %}
+<div class="galary">
+  {% for img in images %}
+    <img src="{{ img.path }}" alt="photo" class="img">
+  {% endfor %}
+</div>
+{% endblock %}
